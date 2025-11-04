@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORTNIK.MVC\\BORTNIK.MVC.csproj": {}
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIK.MVC\\BORTNIK.MVC.csproj": {}
   },
   "projects": {
-    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORTNIK.MVC\\BORTNIK.MVC.csproj": {
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIK.MVC\\BORTNIK.MVC.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORTNIK.MVC\\BORTNIK.MVC.csproj",
+        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIK.MVC\\BORTNIK.MVC.csproj",
         "projectName": "BORTNIK.MVC",
-        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORTNIK.MVC\\BORTNIK.MVC.csproj",
+        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIK.MVC\\BORTNIK.MVC.csproj",
         "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORTNIK.MVC\\obj\\",
+        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIK.MVC\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"

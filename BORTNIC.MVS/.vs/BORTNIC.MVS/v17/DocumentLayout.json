@@ -1,0 +1,135 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\bortnic.mvs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:bortnic.mvs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370AEA9-B936-4D2E-835D-46923D8117D8}|..\\DAL\\DAL.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{F61C6ACA-978A-4427-92EA-70EF54660F96}|..\\Service\\Service.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{7370AEA9-B936-4D2E-835D-46923D8117D8}|..\\DAL\\DAL.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{C36F1BD2-E401-424F-9997-24A44C62A27F}|..\\Domain\\Domain.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "BORTNIC.MVS",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+              "RelativeDocumentMoniker": "BORTNIC.MVS.csproj",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+              "RelativeToolTip": "BORTNIC.MVS.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T14:12:55.837Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "DAL",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
+              "RelativeDocumentMoniker": "..\\DAL\\DAL.csproj",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
+              "RelativeToolTip": "..\\DAL\\DAL.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2025-11-04T14:12:45.47Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Service\\Class1.cs",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Class1.cs",
+              "RelativeToolTip": "..\\Service\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:12:18.033Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\DAL\\Class1.cs",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\Class1.cs",
+              "RelativeToolTip": "..\\DAL\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:12:03.729Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "Class1.cs",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Class1.cs",
+              "RelativeDocumentMoniker": "..\\Domain\\Class1.cs",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Class1.cs",
+              "RelativeToolTip": "..\\Domain\\Class1.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:11:45.509Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "Index.cshtml",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
+              "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
+              "RelativeToolTip": "Views\\Home\\Index.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T14:09:30.622Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "_Layout.cshtml",
+              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
+              "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T14:09:27.478Z",
+              "EditorCaption": ""
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}

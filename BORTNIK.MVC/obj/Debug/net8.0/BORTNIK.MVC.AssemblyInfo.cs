@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BORTNIK.MVC")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+4b916c2ce4252264cee8d332011bc0a7600868bf")]
 [assembly: System.Reflection.AssemblyProductAttribute("BORTNIK.MVC")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BORTNIK.MVC")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
