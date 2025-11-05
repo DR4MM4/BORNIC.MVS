@@ -1,0 +1,16 @@
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\bin\Debug\net8.0\Service.deps.json
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\bin\Debug\net8.0\Service.dll
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\bin\Debug\net8.0\Service.pdb
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\bin\Debug\net8.0\Domain.dll
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\bin\Debug\net8.0\Domain.pdb
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.csproj.AssemblyReference.cache
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.GeneratedMSBuildEditorConfig.editorconfig
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.AssemblyInfoInputs.cache
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.AssemblyInfo.cs
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.csproj.CoreCompileInputs.cache
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.sourcelink.json
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.csproj.Up2Date
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.dll
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\refint\Service.dll
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\Service.pdb
+D:\Users\tmu5.SERVER-ECONOM\Desktop\BORNIC.MVS\Service\obj\Debug\net8.0\ref\Service.dll

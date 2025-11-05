@@ -3,32 +3,45 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - BORTNIC.MVS</title>
+    <title>Сервис заказа ремонта бытовой техники</title>
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BORTNIC.MVS.styles.css" asp-append-version="true" />
 </head>
 <body>
     <header>
-        <nav class="navbar navbar-expand-sm navbar-toggleable-sm navbar-light bg-white border-bottom box-shadow mb-3">
-            <div class="container-fluid">
-                <a class="navbar-brand" asp-area="" asp-controller="Home" asp-action="Index">BORTNIC.MVS</a>
-                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target=".navbar-collapse" aria-controls="navbarSupportedContent"
-                        aria-expanded="false" aria-label="Toggle navigation">
-                    <span class="navbar-toggler-icon"></span>
-                </button>
-                <div class="navbar-collapse collapse d-sm-inline-flex justify-content-between">
-                    <ul class="navbar-nav flex-grow-1">
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Index">Home</a>
-                        </li>
-                        <li class="nav-item">
-                            <a class="nav-link text-dark" asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-                        </li>
-                    </ul>
+        <div class="container">
+            <div class="logo">
+                <img src="logo.png" alt="Логотип компании">
+            </div>
+            <nav class="navigation">
+                <ul>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#order">Заказать ремонт</a></li>
+                </ul>
+            </nav>
+            <div class="cta">
+                <a href="#order" class="cta-button">Заказать ремонт</a>
+            </div>
+        </div>
+        <!-- Секция "О нас" -->
+        <section id="about" class="about">
+            <div class="container">
+                <h2>О нас</h2>
+                <div class="about-content">
+                    <div class="about-text">
+                        <h3>Наша миссия</h3>
+                        <p>Мы предоставляем высококачественные услуги по ремонту бытовой техники. Наша команда профессионалов быстро и качественно решит любые проблемы с вашей техникой, будь то стиральная машина, холодильник или микроволновая печь.</p>
+                    </div>
+                    <div class="about-image">
+                        <img src="about-image.jpg" alt="О нас">
+                    </div>
                 </div>
             </div>
-        </nav>
+        </section>
+
     </header>
     <div class="container">
         <main role="main" class="pb-3">
