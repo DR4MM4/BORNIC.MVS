@@ -7,42 +7,39 @@
     <link rel="stylesheet" href="~/lib/bootstrap/dist/css/bootstrap.min.css" />
     <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
     <link rel="stylesheet" href="~/BORTNIC.MVS.styles.css" asp-append-version="true" />
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
 </head>
 <body>
+    <!-- Шапка сайта -->
     <header>
         <div class="container">
             <div class="logo">
-                <img src="logo.png" alt="Логотип компании">
+                <img src="~/images/logo.png" alt="Логотип">
             </div>
-            <nav class="navigation">
+            <nav>
                 <ul>
+                    <li><a href="#home">Главная</a></li>
                     <li><a href="#about">О нас</a></li>
                     <li><a href="#services">Услуги</a></li>
                     <li><a href="#contact">Контакты</a></li>
-                    <li><a href="#order">Заказать ремонт</a></li>
                 </ul>
             </nav>
-            <div class="cta">
-                <a href="#order" class="cta-button">Заказать ремонт</a>
+            <div class="auth-buttons">
+                <a href="#login" class="btn login">Войти</a>
+                <a href="#register" class="btn register">Регистрация</a>
             </div>
         </div>
-        <!-- Секция "О нас" -->
-        <section id="about" class="about">
-            <div class="container">
-                <h2>О нас</h2>
-                <div class="about-content">
-                    <div class="about-text">
-                        <h3>Наша миссия</h3>
-                        <p>Мы предоставляем высококачественные услуги по ремонту бытовой техники. Наша команда профессионалов быстро и качественно решит любые проблемы с вашей техникой, будь то стиральная машина, холодильник или микроволновая печь.</p>
-                    </div>
-                    <div class="about-image">
-                        <img src="about-image.jpg" alt="О нас">
-                    </div>
-                </div>
-            </div>
-        </section>
-
     </header>
+
+    <!-- Секция "О нас" -->
+    <section id="about" class="about">
+        <div class="container">
+            <h2>О нас</h2>
+            <p>Мы — профессиональный сервис по ремонту бытовой техники. Наша цель — помочь вам восстановить вашу технику в кратчайшие сроки и с гарантией качества.</p>
+            <p>Мы работаем с самыми различными видами техники: холодильники, стиральные машины, телевизоры, микроволновые печи и многое другое. Наши специалисты имеют многолетний опыт работы и используют только качественные запчасти для ремонта.</p>
+        </div>
+    </section>
+    </section>
     <div class="container">
         <main role="main" class="pb-3">
             @RenderBody()

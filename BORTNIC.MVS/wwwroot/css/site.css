@@ -1,98 +1,188 @@
-/* Стили для шапки */
-body {
-    font-family: Arial, sans-serif;
+/* Основные стили для страницы */
+* {
     margin: 0;
     padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Poppins', sans-serif;
+    line-height: 1.6;
     background-color: #f4f4f4;
+    color: #333;
+}
+
+/* Шапка сайта */
+header {
+    background: #58381f;
+    color: white;
+    padding: 20px 0;
+    box-shadow: 0 2px 10px rgba(0, 0, 0, 0.1);
 }
 
 .container {
+    width: 90%;
     max-width: 1200px;
     margin: 0 auto;
-    padding: 0 20px;
-}
-
-.header {
-    background-color: #333;
-    color: white;
-    padding: 20px 0;
     display: flex;
     justify-content: space-between;
     align-items: center;
 }
 
 .logo img {
-    width: 120px;
+    max-height: 60px;
 }
 
-.navigation ul {
-    list-style-type: none;
+nav ul {
+    list-style: none;
     display: flex;
-    margin: 0;
-    padding: 0;
-}
-
-.navigation li {
-    margin: 0 15px;
-}
-
-.navigation a {
-    color: white;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-.cta-button {
-    background-color: #ff5a00;
-    color: white;
-    padding: 10px 20px;
-    border-radius: 5px;
-    text-decoration: none;
-    font-weight: bold;
-}
-
-    .cta-button:hover {
-        background-color: #e14d00;
-    }
-/* Стили для секции "О нас" */
-.about {
-    background-color: #fff;
-    padding: 50px 0;
-}
-
-    .about h2 {
-        text-align: center;
-        font-size: 36px;
-        margin-bottom: 20px;
-    }
-
-.about-content {
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
     gap: 30px;
 }
 
-.about-text {
-    flex: 1;
-}
-
-.about-image {
-    flex: 1;
-}
-
-    .about-image img {
-        width: 100%;
-        border-radius: 8px;
+    nav ul li {
+        position: relative;
+        color: #d9bb9f;
     }
 
-.about h3 {
-    font-size: 28px;
-    margin-bottom: 15px;
+        nav ul li a {
+            text-decoration: none;
+            color: #d9bb9f !important;
+            font-weight: 500;
+            font-size: 1.1rem;
+            letter-spacing: 1px;
+            transition: color 0.3s ease;
+        }
+
+            nav ul li a:hover {
+                color: #d9bb9f;
+            }
+
+            nav ul li a::after {
+                content: '';
+                position: absolute;
+                width: 100%;
+                height: 2px;
+                background-color: #d9bb9f;
+                bottom: -5px;
+                left: 0;
+                transform: scaleX(0);
+                transform-origin: bottom right;
+                transition: transform 0.3s ease;
+            }
+
+            nav ul li a:hover::after {
+                transform: scaleX(1);
+                transform-origin: bottom left;
+            }
+
+/* Кнопки входа и регистрации */
+.auth-buttons {
+    display: flex;
+    gap: 20px;
 }
 
-.about p {
-    font-size: 16px;
-    color: #555;
-    line-height: 1.6;
+    .auth-buttons .btn {
+        padding: 10px 20px;
+        border-radius: 5px;
+        text-decoration: none;
+        font-size: 1rem;
+        font-weight: 600;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+        .auth-buttons .btn.login {
+            background-color: #d0b2a0;
+            color: white;
+            border: 2px solid #d0b2a0;
+        }
+
+            .auth-buttons .btn.login:hover {
+                background-color: #ab8662;
+                border-color: #d0b2a0;
+            }
+
+        .auth-buttons .btn.register {
+            background-color: #d0b2a0;
+            color: white;
+            border: 2px solid #d0b2a0;
+        }
+
+            .auth-buttons .btn.register:hover {
+                background-color: #ab8662;
+                border-color: #d0b2a0;
+            }
+
+/* Секция "О нас" */
+.about {
+    background-color: #ffffff;
+    padding: 80px 0;
+    text-align: center;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.05);
+    margin-top: 30px;
+    border-radius: 10px;
+}
+
+    .about h2 {
+        font-size: 2.5rem;
+        font-weight: 600;
+        color: #333;
+        margin-bottom: 30px;
+        text-transform: uppercase;
+        letter-spacing: 1.5px;
+        position: relative;
+    }
+
+        .about h2::after {
+            content: '';
+            position: absolute;
+            width: 50px;
+            height: 3px;
+            background-color: #58381f;
+            left: 50%;
+            transform: translateX(-50%);
+            bottom: -10px;
+            border-color: #d9bb9f;
+        }
+
+    .about p {
+        font-size: 1.1rem;
+        color: #555;
+        max-width: 800px;
+        margin: 0 auto 20px;
+        line-height: 1.7;
+        text-align: center;
+        transition: all 0.3s ease;
+    }
+
+        .about p:hover {
+            color: #d9bb9f;
+            transform: translateY(-5px);
+        }
+
+    .about .container {
+        max-width: 1100px;
+        margin: 0 auto;
+    }
+
+@media (max-width: 768px) {
+    .about {
+        padding: 60px 20px;
+    }
+
+    nav ul {
+        flex-direction: column;
+        gap: 15px;
+    }
+
+    .container {
+        flex-direction: column;
+        align-items: center;
+        gap: 30px;
+    }
+
+    .auth-buttons {
+        flex-direction: column;
+        gap: 15px;
+    }
 }
