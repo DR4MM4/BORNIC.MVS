@@ -1,78 +1,94 @@
 {
   "Version": 1,
-  "WorkspaceRootPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\",
+  "WorkspaceRootPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\",
   "Documents": [
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\site.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
-    },
-    {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\home\\index.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\shared\\_layout.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\header.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\models\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:models\\messagemodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:controllers\\homecontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
-      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\js\\site.js||{14D17961-FE51-464D-9111-C4AF11D7D99A}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\about.css||{A5401142-F49D-43DB-90B1-F57BA349E55C}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\account\\login.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\account\\register.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\_viewimports.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\_viewstart.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\wwwroot\\css\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:wwwroot\\css\\about.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:controllers\\accountcontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:models\\errorviewmodel.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\home\\privacy.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:views\\shared\\error.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\bortnic.mvs\\bortnic.mvs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
+      "AbsoluteMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|c:\\users\\lucky-buy.md\\desktop\\bornic.mvs\\bortnic.mvs\\bortnic.mvs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|",
       "RelativeMoniker": "D:0:0:{93DAC6FD-B5DF-4C93-AFC0-DDE44884BBFB}|BORTNIC.MVS.csproj|solutionrelative:bortnic.mvs.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7370AEA9-B936-4D2E-835D-46923D8117D8}|..\\DAL\\DAL.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\dal\\dal.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{F61C6ACA-978A-4427-92EA-70EF54660F96}|..\\Service\\Service.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\service\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{7370AEA9-B936-4D2E-835D-46923D8117D8}|..\\DAL\\DAL.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\dal\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{C36F1BD2-E401-424F-9997-24A44C62A27F}|..\\Domain\\Domain.csproj|d:\\users\\tmu5.server-econom\\desktop\\bornic.mvs\\domain\\class1.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{A2FE74E1-B743-11D0-AE1A-00A0C90FFFC3}|\u003CMiscFiles\u003E|D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
     }
   ],
   "DocumentGroupContainers": [
@@ -82,52 +98,71 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 6,
+          "SelectedChildIndex": 8,
           "Children": [
             {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{cce594b6-0c39-4442-ba28-10c64ac7e89f}"
+            },
+            {
               "$type": "Document",
-              "DocumentIndex": 5,
-              "Title": "about.cs",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.cs",
-              "RelativeDocumentMoniker": "wwwroot\\css\\about.cs",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.cs",
-              "RelativeToolTip": "wwwroot\\css\\about.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "DocumentIndex": 4,
+              "Title": "MessageModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\MessageModel.cs",
+              "RelativeDocumentMoniker": "Models\\MessageModel.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\MessageModel.cs",
+              "RelativeToolTip": "Models\\MessageModel.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAkAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-05T15:11:23.041Z",
+              "WhenOpened": "2025-11-06T01:43:33.555Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 11,
-              "Title": "_ViewStart.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewStart.cshtml",
-              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewStart.cshtml",
-              "RelativeToolTip": "Views\\_ViewStart.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "DocumentIndex": 9,
+              "Title": "Register.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Account\\Register.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Register.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Account\\Register.cshtml",
+              "RelativeToolTip": "Views\\Account\\Register.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T14:27:51.706Z"
+              "WhenOpened": "2025-11-06T01:17:25.83Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 7,
+              "DocumentIndex": 8,
+              "Title": "Login.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Account\\Login.cshtml",
+              "RelativeDocumentMoniker": "Views\\Account\\Login.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Account\\Login.cshtml",
+              "RelativeToolTip": "Views\\Account\\Login.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAA4AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-06T01:16:46.664Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
               "Title": "_ViewImports.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewImports.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewImports.cshtml",
               "RelativeDocumentMoniker": "Views\\_ViewImports.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewImports.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewImports.cshtml",
               "RelativeToolTip": "Views\\_ViewImports.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2025-11-04T14:27:47.792Z"
+              "WhenOpened": "2025-11-04T14:27:47.792Z",
+              "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 13,
+              "DocumentIndex": 17,
               "Title": "Error.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\Error.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\Error.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\Error.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\Error.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\Error.cshtml",
               "RelativeToolTip": "Views\\Shared\\Error.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -135,26 +170,26 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 6,
+              "DocumentIndex": 1,
               "Title": "Index.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Index.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Index.cshtml",
               "RelativeToolTip": "Views\\Home\\Index.cshtml",
-              "ViewState": "AgIAABEAAAAAAAAAAAAAwCgAAAAKAAAAAAAAAA==",
+              "ViewState": "AgIAABUAAAAAAAAAAAAgwCsAAAAeAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T14:09:30.622Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 2,
               "Title": "_Layout.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
               "RelativeDocumentMoniker": "Views\\Shared\\_Layout.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Shared\\_Layout.cshtml",
               "RelativeToolTip": "Views\\Shared\\_Layout.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAvAAAAAAAAAA==",
+              "ViewState": "AgIAABQAAAAAAAAAAAAgwFIAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
               "WhenOpened": "2025-11-04T14:09:27.478Z",
               "EditorCaption": ""
@@ -163,22 +198,22 @@
               "$type": "Document",
               "DocumentIndex": 0,
               "Title": "site.css",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\site.css",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\site.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\site.css",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\site.css",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\site.css",
               "RelativeToolTip": "wwwroot\\css\\site.css",
-              "ViewState": "AgIAAGwBAAAAAAAAAAAiwJcBAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAABQBAAAAAAAAAAAIwCsBAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
               "WhenOpened": "2025-11-04T15:01:12.293Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 2,
+              "DocumentIndex": 7,
               "Title": "about.css",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.css",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\about.css",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.css",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.css",
               "RelativeToolTip": "wwwroot\\css\\about.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -189,9 +224,9 @@
               "$type": "Document",
               "DocumentIndex": 3,
               "Title": "header.css",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\header.css",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\header.css",
               "RelativeDocumentMoniker": "wwwroot\\css\\header.css",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\header.css",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\header.css",
               "RelativeToolTip": "wwwroot\\css\\header.css",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.003000|",
@@ -200,24 +235,76 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 4,
+              "DocumentIndex": 5,
+              "Title": "HomeController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\HomeController.cs",
+              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\HomeController.cs",
+              "RelativeToolTip": "Controllers\\HomeController.cs",
+              "ViewState": "AgIAAAgAAAAAAAAAAAAQwCUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-04T14:28:15.614Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
               "Title": "site.js",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\js\\site.js",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\js\\site.js",
               "RelativeDocumentMoniker": "wwwroot\\js\\site.js",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\js\\site.js",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\js\\site.js",
               "RelativeToolTip": "wwwroot\\js\\site.js",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "ViewState": "AgIAAB4AAAAAAAAAAAAwwEYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001646|",
               "WhenOpened": "2025-11-05T15:12:58.082Z",
               "EditorCaption": ""
             },
             {
               "$type": "Document",
-              "DocumentIndex": 10,
+              "DocumentIndex": 13,
+              "Title": "AccountController.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\AccountController.cs",
+              "RelativeDocumentMoniker": "Controllers\\AccountController.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\AccountController.cs",
+              "RelativeToolTip": "Controllers\\AccountController.cs",
+              "ViewState": "AgIAAA8AAAAAAAAAAAAowAsAAAASAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-06T01:18:14.434Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "_ViewStart.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewStart.cshtml",
+              "RelativeDocumentMoniker": "Views\\_ViewStart.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\_ViewStart.cshtml",
+              "RelativeToolTip": "Views\\_ViewStart.cshtml",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2025-11-04T14:27:51.706Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "about.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.cs",
+              "RelativeDocumentMoniker": "wwwroot\\css\\about.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\wwwroot\\css\\about.cs",
+              "RelativeToolTip": "wwwroot\\css\\about.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2025-11-05T15:11:23.041Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
               "Title": "Program.cs",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Program.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Program.cs",
               "RelativeDocumentMoniker": "Program.cs",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Program.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Program.cs",
               "RelativeToolTip": "Program.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -225,23 +312,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 9,
-              "Title": "HomeController.cs",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\HomeController.cs",
-              "RelativeDocumentMoniker": "Controllers\\HomeController.cs",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Controllers\\HomeController.cs",
-              "RelativeToolTip": "Controllers\\HomeController.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2025-11-04T14:28:15.614Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 8,
+              "DocumentIndex": 14,
               "Title": "ErrorViewModel.cs",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\ErrorViewModel.cs",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\ErrorViewModel.cs",
               "RelativeDocumentMoniker": "Models\\ErrorViewModel.cs",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\ErrorViewModel.cs",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Models\\ErrorViewModel.cs",
               "RelativeToolTip": "Models\\ErrorViewModel.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAYAAABGAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
@@ -249,11 +324,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 12,
+              "DocumentIndex": 16,
               "Title": "Privacy.cshtml",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Privacy.cshtml",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Privacy.cshtml",
               "RelativeDocumentMoniker": "Views\\Home\\Privacy.cshtml",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Privacy.cshtml",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\Views\\Home\\Privacy.cshtml",
               "RelativeToolTip": "Views\\Home\\Privacy.cshtml",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
@@ -261,11 +336,11 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 14,
+              "DocumentIndex": 18,
               "Title": "BORTNIC.MVS.csproj",
-              "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+              "DocumentMoniker": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
               "RelativeDocumentMoniker": "BORTNIC.MVS.csproj",
-              "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+              "ToolTip": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
               "RelativeToolTip": "BORTNIC.MVS.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
@@ -273,48 +348,40 @@
             },
             {
               "$type": "Document",
-              "DocumentIndex": 18,
+              "DocumentIndex": 19,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\Domain\\Class1.cs",
               "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Class1.cs",
-              "RelativeToolTip": "..\\Domain\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T14:11:45.509Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 17,
+              "DocumentIndex": 20,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\DAL\\Class1.cs",
               "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\Class1.cs",
-              "RelativeToolTip": "..\\DAL\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T14:12:03.729Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 16,
+              "DocumentIndex": 21,
               "Title": "Class1.cs",
               "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Class1.cs",
-              "RelativeDocumentMoniker": "..\\Service\\Class1.cs",
               "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Class1.cs",
-              "RelativeToolTip": "..\\Service\\Class1.cs",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2025-11-04T14:12:18.033Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 15,
+              "DocumentIndex": 22,
               "Title": "DAL.csproj",
               "DocumentMoniker": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
-              "RelativeDocumentMoniker": "..\\DAL\\DAL.csproj",
               "ToolTip": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
-              "RelativeToolTip": "..\\DAL\\DAL.csproj",
               "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
               "WhenOpened": "2025-11-04T14:12:45.47Z"

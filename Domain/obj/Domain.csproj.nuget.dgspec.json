@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {}
+    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {}
   },
   "projects": {
-    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
+    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
+        "projectUniqueName": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
-        "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
-        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\obj\\",
+        "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
+        "packagesPath": "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\",
+        "outputPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "D:\\Users\\tmu5.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "C:\\Users\\Lucky-Buy.md\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -65,7 +65,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.301/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

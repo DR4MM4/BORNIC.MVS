@@ -1,0 +1,20 @@
+﻿@{
+    ViewData["Title"] = "Регистрация";
+}
+
+<div class="auth-container">
+    <h2>Регистрация</h2>
+    <form method="post" asp-action="Register" class="auth-form">
+        <label>Имя</label>
+        <input type="text" name="Name" placeholder="Введите имя" required />
+
+        <label>Email</label>
+        <input type="email" name="Email" placeholder="Введите email" required />
+
+        <label>Пароль</label>
+        <input type="password" name="Password" placeholder="Введите пароль" required />
+
+        <button type="submit" class="btn">Создать аккаунт</button>
+        <p>Уже зарегистрированы? <a asp-controller="Account" asp-action="Login">Войти</a></p>
+    </form>
+</div>

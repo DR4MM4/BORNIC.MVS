@@ -1,32 +1,37 @@
-using System.Diagnostics;
-using BORTNIC.MVS.Models;
-using Microsoft.AspNetCore.Mvc;
+﻿using Microsoft.AspNetCore.Mvc;
+using RepairService.Models;
+using System.Collections.Generic;
 
-namespace BORTNIC.MVS.Controllers
+namespace RepairService.Controllers
 {
     public class HomeController : Controller
     {
-        private readonly ILogger<HomeController> _logger;
-
-        public HomeController(ILogger<HomeController> logger)
-        {
-            _logger = logger;
-        }
+        // ⚙️ Временный список сообщений (имитация базы данных)
+        private static List<MessageModel> messages = new List<MessageModel>();
 
         public IActionResult Index()
         {
-            return View();
+            return View(messages);
         }
 
-        public IActionResult Privacy()
+        // ✅ Получение всех сообщений
+        [HttpGet]
+        public JsonResult GetMessages()
         {
-            return View();
+            return Json(messages);
         }
 
-        [ResponseCache(Duration = 0, Location = ResponseCacheLocation.None, NoStore = true)]
-        public IActionResult Error()
+        // ✅ Добавление нового сообщения
+        [HttpPost]
+        public JsonResult AddMessage([FromBody] MessageModel msg)
         {
-            return View(new ErrorViewModel { RequestId = Activity.Current?.Id ?? HttpContext.TraceIdentifier });
+            if (string.IsNullOrWhiteSpace(msg.MessageText))
+            {
+                return Json(new { success = false, message = "Сообщение не может быть пустым." });
+            }
+
+            messages.Add(msg);
+            return Json(new { success = true, message = "Сообщение добавлено!" });
         }
     }
 }

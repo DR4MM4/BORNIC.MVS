@@ -3,195 +3,80 @@
 <head>
     <meta charset="utf-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Сервис заказа ремонта бытовой техники</title>
-    <link rel="stylesheet" href="~/css/site.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/header.css" asp-append-version="true" />
-    <link rel="stylesheet" href="~/css/about.css" asp-append-version="true" />
-    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@400;500;600&display=swap" rel="stylesheet">
+    <title>@ViewData["Title"] - RepairService</title>
+    <link rel="stylesheet" href="~/css/site.css" />
+    <script src="~/js/site.js" defer></script>
 </head>
 <body>
-    <header>
-        <div class="header-container">
-            <div class="logo">
-                <div class="logo-icon">🔧</div>
-                <div class="logo-text">
-                    <h1>РемонтМастер</h1>
-                    <p>Профессиональный ремонт</p>
-                </div>
+
+    <!-- 🔹 Шапка -->
+    <header class="header">
+        <div class="container">
+            <div class="logo-container">
+                <a href="/" class="logo-link">
+                    <img src="~/images/logo.png" alt="RepairService" class="logo-img" />
+                    <span class="logo-text">RepairService</span>
+                </a>
             </div>
 
-            <nav id="desktopNav">
-                <a href="#services">Услуги</a>
-                <a href="#about">О нас</a>
-                <a href="#prices">Цены</a>
-                <a href="#contacts">Контакты</a>
+            <nav>
+                <ul class="menu">
+                    <li><a href="/">Главная</a></li>
+                    <li><a href="#about">О нас</a></li>
+                    <li><a href="#services">Услуги</a></li>
+                    <li><a href="#contact">Контакты</a></li>
+                    <li><a href="#" id="openLogin">Войти</a></li>
+                    <li><a href="#" id="openRegister" class="btn-small">Регистрация</a></li>
+                </ul>
             </nav>
-
-            <div class="header-contact">
-                <div class="phone-info">
-                    <a href="tel:+78001234567" class="phone-number">📞 8 (800) 123-45-67</a>
-                    <p class="phone-subtitle">Звонок бесплатный</p>
-                </div>
-                <button class="btn-primary">Заказать звонок</button>
-            </div>
-
-            <button class="menu-toggle" onclick="toggleMenu()">☰</button>
-        </div>
-
-        <div class="mobile-menu" id="mobileMenu">
-            <div class="header-container">
-                <nav>
-                    <a href="#services">Услуги</a>
-                    <a href="#about">О нас</a>
-                    <a href="#prices">Цены</a>
-                    <a href="#contacts">Контакты</a>
-                    <a href="tel:+78001234567" class="phone-number">📞 8 (800) 123-45-67</a>
-                    <button class="btn-primary" style="width: 100%; margin-top: 0.5rem;">Заказать звонок</button>
-                </nav>
-            </div>
         </div>
     </header>
 
-    <section class="hero">
-        <div class="hero-container">
-            <div>
-                <h2>Ремонт бытовой техники в день обращения</h2>
-                <p>Опытные мастера, оригинальные запчасти, гарантия до 2 лет. Работаем по всему городу без выходных.</p>
-                <div class="hero-buttons">
-                    <button class="btn-white">Вызвать мастера</button>
-                    <button class="btn-outline">Рассчитать стоимость</button>
-                </div>
-                <div class="hero-time">
-                    <span>⏰</span>
-                    <span>Приедем в течение 2 часов</span>
-                </div>
-            </div>
+    <main class="main-content">
+        @RenderBody()
+    </main>
 
-            <div class="advantages-card">
-                <h3>Почему выбирают нас?</h3>
-                <div class="advantage-item">
-                    <span class="icon">✓</span>
-                    <div>
-                        <strong>Бесплатная диагностика</strong>
-                        <small>При ремонте в нашем сервисе</small>
-                    </div>
-                </div>
-                <div class="advantage-item">
-                    <span class="icon">✓</span>
-                    <div>
-                        <strong>Гарантия до 2 лет</strong>
-                        <small>На все виды работ и запчасти</small>
-                    </div>
-                </div>
-                <div class="advantage-item">
-                    <span class="icon">✓</span>
-                    <div>
-                        <strong>Работаем 24/7</strong>
-                        <small>Без выходных и праздников</small>
-                    </div>
-                </div>
-                <div class="advantage-item">
-                    <span class="icon">✓</span>
-                    <div>
-                        <strong>Оригинальные запчасти</strong>
-                        <small>Только сертифицированные детали</small>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <section id="about" class="about">
-        <div class="about-container">
-            <div class="about-header">
-                <h2>О нашей компании</h2>
-                <p>Мы специализируемся на профессиональном ремонте бытовой техники с 2010 года. За это время мы помогли тысячам клиентов вернуть к жизни их технику.</p>
-            </div>
-
-            <div class="stats">
-                <div class="stat-item">
-                    <div class="stat-icon blue">👥</div>
-                    <div class="stat-number">15000+</div>
-                    <div class="stat-label">Довольных клиентов</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon green">🏆</div>
-                    <div class="stat-number">13 лет</div>
-                    <div class="stat-label">На рынке услуг</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon purple">🔧</div>
-                    <div class="stat-number">50+</div>
-                    <div class="stat-label">Видов техники</div>
-                </div>
-                <div class="stat-item">
-                    <div class="stat-icon orange">📈</div>
-                    <div class="stat-number">98%</div>
-                    <div class="stat-label">Успешных ремонтов</div>
-                </div>
-            </div>
-
-            <div class="about-content">
-                <div>
-                    <h3>Профессиональный подход к каждому клиенту</h3>
-                    <p><strong>РемонтМастер</strong> — это команда сертифицированных специалистов с многолетним опытом работы. Мы ремонтируем все виды бытовой техники: холодильники, стиральные машины, посудомоечные машины, духовые шкафы, микроволновые печи и многое другое.</p>
-                    <p>Наши мастера регулярно проходят обучение и повышение квалификации, следят за новыми технологиями и методами ремонта. Это позволяет нам успешно справляться даже со сложными поломками современной техники.</p>
-                    <p>Мы дорожим своей репутацией и каждым клиентом, поэтому гарантируем высокое качество работ и используем только оригинальные запчасти от производителей.</p>
-                </div>
-
-                <div class="about-features">
-                    <div class="feature-card">
-                        <h4>🎯 Наша миссия</h4>
-                        <p>Сделать профессиональный ремонт техники доступным и удобным для каждого клиента</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4>💼 Наши ценности</h4>
-                        <p>Честность, качество, ответственность и забота о каждом клиенте</p>
-                    </div>
-                    <div class="feature-card">
-                        <h4>⚡ Наше преимущество</h4>
-                        <p>Быстрое реагирование, прозрачные цены и гарантия на все виды работ</p>
-                    </div>
-                </div>
-            </div>
-        </div>
-    </section>
-
-    <script>
-        function toggleMenu() {
-            var menu = document.getElementById('mobileMenu');
-            menu.classList.toggle('active');
-        }
-
-        document.querySelectorAll('a[href^="#"]').forEach(function(anchor) {
-            anchor.addEventListener('click', function (e) {
-                e.preventDefault();
-                var target = document.querySelector(this.getAttribute('href'));
-                if (target) {
-                    target.scrollIntoView({
-                        behavior: 'smooth',
-                        block: 'start'
-                    });
-                    document.getElementById('mobileMenu').classList.remove('active');
-                }
-            });
-        });
-    </script>
-
-    <div class="container">
-        <main role="main" class="pb-3">
-            @RenderBody()
-        </main>
-    </div>
-
-    <footer class="border-top footer text-muted">
-        <div class="container">
-            &copy; 2025 - BORTNIC.MVS - <a asp-area="" asp-controller="Home" asp-action="Privacy">Privacy</a>
-        </div>
+    <footer class="footer">
+        <p>© 2025 <b>RepairService</b> — ремонт бытовой техники в Молдове.</p>
     </footer>
 
-    <script src="~/js/site.js" asp-append-version="true"></script>
-    <script src="~/js/site.js"></script> <!-- Добавляем файл JS для header -->
-    @await RenderSectionAsync("Scripts", required: false)
+    <!-- 🔹 Модальные окна -->
+    <div id="loginModal" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="loginModal">&times;</span>
+            <h2>Вход</h2>
+            <form class="auth-form">
+                <label>Email</label>
+                <input type="email" placeholder="Введите email" required>
+
+                <label>Пароль</label>
+                <input type="password" placeholder="Введите пароль" required>
+
+                <button type="submit" class="btn">Войти</button>
+                <p>Нет аккаунта? <a href="#" id="switchToRegister">Создать</a></p>
+            </form>
+        </div>
+    </div>
+
+    <div id="registerModal" class="modal">
+        <div class="modal-content">
+            <span class="close" data-close="registerModal">&times;</span>
+            <h2>Регистрация</h2>
+            <form class="auth-form">
+                <label>Имя</label>
+                <input type="text" placeholder="Введите имя" required>
+
+                <label>Email</label>
+                <input type="email" placeholder="Введите email" required>
+
+                <label>Пароль</label>
+                <input type="password" placeholder="Введите пароль" required>
+
+                <button type="submit" class="btn">Создать аккаунт</button>
+                <p>Уже есть аккаунт? <a href="#" id="switchToLogin">Войти</a></p>
+            </form>
+        </div>
+    </div>
+
 </body>
 </html>
