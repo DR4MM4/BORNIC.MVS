@@ -2,81 +2,394 @@
 <html lang="ru">
 <head>
     <meta charset="utf-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>@ViewData["Title"] - RepairService</title>
-    <link rel="stylesheet" href="~/css/site.css" />
-    <script src="~/js/site.js" defer></script>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>@ViewBag.Title - MasterService | Ремонт техники</title>
+    <link href="~/css/site.css" rel="stylesheet" />
+    <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    @RenderSection("Styles", required: false)
 </head>
 <body>
-
-    <!-- 🔹 Шапка -->
-    <header class="header">
-        <div class="container">
-            <div class="logo-container">
-                <a href="/" class="logo-link">
-                    <img src="~/images/logo.png" alt="RepairService" class="logo-img" />
-                    <span class="logo-text">RepairService</span>
-                </a>
-            </div>
-
-            <nav>
-                <ul class="menu">
-                    <li><a href="/">Главная</a></li>
-                    <li><a href="#about">О нас</a></li>
-                    <li><a href="#services">Услуги</a></li>
-                    <li><a href="#contact">Контакты</a></li>
-                    <li><a href="#" id="openLogin">Войти</a></li>
-                    <li><a href="#" id="openRegister" class="btn-small">Регистрация</a></li>
-                </ul>
-            </nav>
+    <!-- Анимированный фон -->
+    <div class="background-animation">
+        <div class="floating-shapes">
+            <div class="shape shape-1"></div>
+            <div class="shape shape-2"></div>
+            <div class="shape shape-3"></div>
         </div>
+    </div>
+
+    <!-- Шапка -->
+    <header class="main-header">
+        <div class="header-glow"></div>
+        <nav class="main-nav">
+            <div class="nav-container">
+                <!-- Логотип -->
+                <div class="logo" onclick="window.location='@Url.Action("Index", "Home")'">
+                    <div class="logo-icon">
+                        <i class="fas fa-tools"></i>
+                        <div class="logo-pulse"></div>
+                    </div>
+                    <div class="logo-text">
+                        <span class="logo-main">MasterService</span>
+                        <span class="logo-sub">профессиональный ремонт</span>
+                    </div>
+                </div>
+
+                <!-- Навигация -->
+                <ul class="nav-menu">
+                    <li class="nav-item">
+                        <a href="#about" class="nav-link">
+                            <span class="nav-icon"><i class="fas fa-star"></i></span>
+                            <span class="nav-text">О нас</span>
+                            <span class="nav-hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#services" class="nav-link">
+                            <span class="nav-icon"><i class="fas fa-concierge-bell"></i></span>
+                            <span class="nav-text">Услуги</span>
+                            <span class="nav-hover"></span>
+                        </a>
+                    </li>
+                    <li class="nav-item">
+                        <a href="#contacts" class="nav-link">
+                            <span class="nav-icon"><i class="fas fa-phone"></i></span>
+                            <span class="nav-text">Контакты</span>
+                            <span class="nav-hover"></span>
+                        </a>
+                    </li>
+                </ul>
+
+                <!-- Кнопки -->
+                <div class="nav-buttons">
+                    <button class="btn btn-ghost btn-login" onclick="openLoginModal()">
+                        <i class="fas fa-user"></i>
+                        Вход
+                    </button>
+                    <button class="btn btn-primary btn-register" onclick="openRegisterModal()">
+                        <i class="fas fa-user-plus"></i>
+                        Регистрация
+                    </button>
+                </div>
+
+                <!-- Мобильное меню -->
+                <div class="mobile-menu-btn">
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                    <div class="burger-line"></div>
+                </div>
+            </div>
+        </nav>
     </header>
 
     <main class="main-content">
         @RenderBody()
     </main>
 
-    <footer class="footer">
-        <p>© 2025 <b>RepairService</b> — ремонт бытовой техники в Молдове.</p>
+    <!-- Подвал -->
+    <footer class="main-footer">
+        <div class="footer-waves">
+            <div class="wave wave-1"></div>
+            <div class="wave wave-2"></div>
+            <div class="wave wave-3"></div>
+        </div>
+
+        <div class="container">
+            <div class="footer-content">
+                <!-- Основная информация -->
+                <div class="footer-section">
+                    <div class="footer-logo">
+                        <div class="logo-badge">
+                            <i class="fas fa-tools"></i>
+                        </div>
+                        <div class="logo-info">
+                            <h3>MasterService</h3>
+                            <p>Ваш надежный партнер в ремонте техники</p>
+                        </div>
+                    </div>
+                    <p class="footer-description">
+                        Более 10 лет мы предоставляем качественные услуги по ремонту бытовой техники.
+                        Доверьте свою технику профессионалам!
+                    </p>
+                    <div class="trust-badges">
+                        <div class="badge">
+                            <i class="fas fa-shield-alt"></i>
+                            <span>Гарантия 2 года</span>
+                        </div>
+                        <div class="badge">
+                            <i class="fas fa-award"></i>
+                            <span>Сертифицированные мастера</span>
+                        </div>
+                    </div>
+                </div>
+
+                <!-- Навигация -->
+                <div class="footer-section">
+                    <h4 class="section-title">Навигация</h4>
+                    <div class="footer-links">
+                        <a href="#about" class="footer-link">
+                            <i class="fas fa-chevron-right"></i>
+                            <span>О компании</span>
+                            <div class="link-underline"></div>
+                        </a>
+                        <a href="#services" class="footer-link">
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Наши услуги</span>
+                            <div class="link-underline"></div>
+                        </a>
+                        <a href="#contacts" class="footer-link">
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Контакты</span>
+                            <div class="link-underline"></div>
+                        </a>
+                        <a href="#message" class="footer-link">
+                            <i class="fas fa-chevron-right"></i>
+                            <span>Связаться с нами</span>
+                            <div class="link-underline"></div>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Услуги -->
+                <div class="footer-section">
+                    <h4 class="section-title">Услуги</h4>
+                    <div class="service-links">
+                        <a href="#services" class="service-link">
+                            <div class="service-icon">
+                                <i class="fas fa-walking"></i>
+                            </div>
+                            <span>Стиральные машины</span>
+                        </a>
+                        <a href="#services" class="service-link">
+                            <div class="service-icon">
+                                <i class="fas fa-snowflake"></i>
+                            </div>
+                            <span>Холодильники</span>
+                        </a>
+                        <a href="#services" class="service-link">
+                            <div class="service-icon">
+                                <i class="fas fa-blender"></i>
+                            </div>
+                            <span>Посудомойки</span>
+                        </a>
+                    </div>
+                </div>
+
+                <!-- Контакты -->
+                <div class="footer-section">
+                    <h4 class="section-title">Контакты</h4>
+                    <div class="contact-items">
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-phone"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-value">+7 (499) 123-45-67</span>
+                                <span class="contact-label">Многоканальный</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-envelope"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-value">info@masterservice.ru</span>
+                                <span class="contact-label">Эл. почта</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-map-marker-alt"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-value">г. Москва, ул. Примерная, 123</span>
+                                <span class="contact-label">Адрес</span>
+                            </div>
+                        </div>
+                        <div class="contact-item">
+                            <div class="contact-icon">
+                                <i class="fas fa-clock"></i>
+                            </div>
+                            <div class="contact-info">
+                                <span class="contact-value">Пн-Пт: 9:00-20:00</span>
+                                <span class="contact-label">Время работы</span>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!-- Нижняя часть -->
+            <div class="footer-bottom">
+                <div class="footer-copyright">
+                    <p>&copy; 2024 MasterService. Все права защищены.</p>
+                </div>
+                <div class="footer-stats">
+                    <div class="stat">
+                        <span class="stat-number" data-count="1500">0</span>
+                        <span class="stat-label">Довольных клиентов</span>
+                    </div>
+                    <div class="stat">
+                        <span class="stat-number" data-count="99">0</span>
+                        <span class="stat-label">% успешных ремонтов</span>
+                    </div>
+                </div>
+            </div>
+        </div>
     </footer>
 
-    <!-- 🔹 Модальные окна -->
+    <!-- Модальные окна -->
+    <!-- Вход -->
     <div id="loginModal" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="loginModal">&times;</span>
-            <h2>Вход</h2>
-            <form class="auth-form">
-                <label>Email</label>
-                <input type="email" placeholder="Введите email" required>
-
-                <label>Пароль</label>
-                <input type="password" placeholder="Введите пароль" required>
-
-                <button type="submit" class="btn">Войти</button>
-                <p>Нет аккаунта? <a href="#" id="switchToRegister">Создать</a></p>
-            </form>
+        <div class="modal-backdrop" onclick="closeLoginModal()"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-glow"></div>
+                    <h2 class="modal-title">
+                        <i class="fas fa-sign-in-alt"></i>
+                        Вход в систему
+                    </h2>
+                    <p>Войдите в свой аккаунт</p>
+                    <button class="modal-close" onclick="closeLoginModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="loginForm" class="auth-form">
+                        <div class="input-group">
+                            <input type="email" id="loginEmail" placeholder=" " required>
+                            <label for="loginEmail">
+                                <i class="fas fa-envelope"></i>
+                                Email
+                            </label>
+                            <div class="input-underline"></div>
+                        </div>
+                        <div class="input-group">
+                            <input type="password" id="loginPassword" placeholder=" " required>
+                            <label for="loginPassword">
+                                <i class="fas fa-lock"></i>
+                                Пароль
+                            </label>
+                            <div class="input-underline"></div>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox">
+                                <span class="checkmark"></span>
+                                Запомнить меня
+                            </label>
+                            <a href="#" class="forgot-link">Забыли пароль?</a>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Войти
+                        </button>
+                    </form>
+                    <div class="auth-divider">
+                        <span>Нет аккаунта?</span>
+                    </div>
+                    <div class="auth-switch">
+                        <button class="btn btn-ghost btn-full" onclick="switchToRegister()">
+                            <i class="fas fa-user-plus"></i>
+                            Зарегистрироваться
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <!-- Регистрация -->
     <div id="registerModal" class="modal">
-        <div class="modal-content">
-            <span class="close" data-close="registerModal">&times;</span>
-            <h2>Регистрация</h2>
-            <form class="auth-form">
-                <label>Имя</label>
-                <input type="text" placeholder="Введите имя" required>
-
-                <label>Email</label>
-                <input type="email" placeholder="Введите email" required>
-
-                <label>Пароль</label>
-                <input type="password" placeholder="Введите пароль" required>
-
-                <button type="submit" class="btn">Создать аккаунт</button>
-                <p>Уже есть аккаунт? <a href="#" id="switchToLogin">Войти</a></p>
-            </form>
+        <div class="modal-backdrop" onclick="closeRegisterModal()"></div>
+        <div class="modal-container">
+            <div class="modal-content">
+                <div class="modal-header">
+                    <div class="modal-glow"></div>
+                    <h2 class="modal-title">
+                        <i class="fas fa-user-plus"></i>
+                        Регистрация
+                    </h2>
+                    <p>Создайте новый аккаунт</p>
+                    <button class="modal-close" onclick="closeRegisterModal()">
+                        <i class="fas fa-times"></i>
+                    </button>
+                </div>
+                <div class="modal-body">
+                    <form id="registerForm" class="auth-form">
+                        <div class="form-row">
+                            <div class="input-group">
+                                <input type="text" id="regName" placeholder=" " required>
+                                <label for="regName">
+                                    <i class="fas fa-user"></i>
+                                    Имя
+                                </label>
+                                <div class="input-underline"></div>
+                            </div>
+                            <div class="input-group">
+                                <input type="tel" id="regPhone" placeholder=" " required>
+                                <label for="regPhone">
+                                    <i class="fas fa-phone"></i>
+                                    Телефон
+                                </label>
+                                <div class="input-underline"></div>
+                            </div>
+                        </div>
+                        <div class="input-group">
+                            <input type="email" id="regEmail" placeholder=" " required>
+                            <label for="regEmail">
+                                <i class="fas fa-envelope"></i>
+                                Email
+                            </label>
+                            <div class="input-underline"></div>
+                        </div>
+                        <div class="form-row">
+                            <div class="input-group">
+                                <input type="password" id="regPassword" placeholder=" " required>
+                                <label for="regPassword">
+                                    <i class="fas fa-lock"></i>
+                                    Пароль
+                                </label>
+                                <div class="input-underline"></div>
+                            </div>
+                            <div class="input-group">
+                                <input type="password" id="regConfirmPassword" placeholder=" " required>
+                                <label for="regConfirmPassword">
+                                    <i class="fas fa-lock"></i>
+                                    Подтверждение
+                                </label>
+                                <div class="input-underline"></div>
+                            </div>
+                        </div>
+                        <div class="form-options">
+                            <label class="checkbox">
+                                <input type="checkbox" required>
+                                <span class="checkmark"></span>
+                                Я согласен с <a href="#">условиями использования</a>
+                            </label>
+                        </div>
+                        <button type="submit" class="btn btn-primary btn-full">
+                            <i class="fas fa-user-plus"></i>
+                            Зарегистрироваться
+                        </button>
+                    </form>
+                    <div class="auth-divider">
+                        <span>Уже есть аккаунт?</span>
+                    </div>
+                    <div class="auth-switch">
+                        <button class="btn btn-ghost btn-full" onclick="switchToLogin()">
+                            <i class="fas fa-sign-in-alt"></i>
+                            Войти
+                        </button>
+                    </div>
+                </div>
+            </div>
         </div>
     </div>
 
+    <script src="~/js/site.js"></script>
+    @RenderSection("Scripts", required: false)
 </body>
 </html>

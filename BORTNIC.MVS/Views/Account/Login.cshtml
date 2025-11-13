@@ -1,17 +1,28 @@
 ﻿@{
     ViewData["Title"] = "Вход";
 }
-
-<div class="auth-container">
-    <h2>Вход в систему</h2>
-    <form method="post" asp-action="Login" class="auth-form">
-        <label>Email</label>
-        <input type="email" name="Email" placeholder="Введите email" required />
-
-        <label>Пароль</label>
-        <input type="password" name="Password" placeholder="Введите пароль" required />
-
-        <button type="submit" class="btn">Войти</button>
-        <p>Нет аккаунта? <a asp-controller="Account" asp-action="Register">Создать</a></p>
-    </form>
+<div class="container py-5 mt-5">
+    <div class="row justify-content-center">
+        <div class="col-md-6 col-lg-5">
+            <div class="card shadow-lg p-4 login-form">
+                <h2 class="card-title text-center mb-4">🚪 Вход в аккаунт</h2>
+                <form asp-controller="Account" asp-action="Login" method="post">
+                    <div class="mb-3">
+                        <label for="Email" class="form-label">Email</label>
+                        <input type="email" class="form-control" id="Email" name="Email" required>
+                    </div>
+                    <div class="mb-3">
+                        <label for="Password" class="form-label">Пароль</label>
+                        <input type="password" class="form-control" id="Password" name="Password" required>
+                    </div>
+                    <div class="d-grid gap-2 mb-3">
+                        <button type="submit" class="btn btn-success btn-lg">Войти</button>
+                    </div>
+                    <p class="text-center">
+                        Нет аккаунта? <a asp-action="Register">Зарегистрироваться</a>
+                    </p>
+                </form>
+            </div>
+        </div>
+    </div>
 </div>
