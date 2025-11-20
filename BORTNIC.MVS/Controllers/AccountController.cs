@@ -1,35 +1,30 @@
-﻿using Microsoft.AspNetCore.Mvc;
+﻿using BORTNIC.MVS.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace RepairService.Controllers
+namespace BORTNIC.MVS.Controllers
 {
     public class AccountController : Controller
     {
-        public IActionResult Login()
-        {
-            return View();
-        }
-
+        // LOGIN (fetch)
         [HttpPost]
-        public IActionResult Login(string email, string password)
+        public JsonResult LoginFetch(LoginModel model)
         {
-            if (email == "admin@repair.md" && password == "12345")
-                return RedirectToAction("Index", "Home");
+            if (model.Email == "admin@mail.com" && model.Password == "123456")
+            {
+                return Json(new { success = true, message = "Вход выполнен!" });
+            }
 
-            ViewBag.Message = "Неверные данные входа.";
-            return View();
+            return Json(new { success = false, message = "Неверный email или пароль" });
         }
 
-        public IActionResult Register()
-        {
-            return View();
-        }
-
+        // REGISTER (fetch)
         [HttpPost]
-        public IActionResult Register(string name, string email, string password)
+        public JsonResult RegisterFetch(RegisterModel model)
         {
-            // имитация регистрации
-            ViewBag.Message = $"Пользователь {name} успешно зарегистрирован!";
-            return View();
+            if (model.Password != model.ConfirmPassword)
+                return Json(new { success = false, message = "Пароли не совпадают" });
+
+            return Json(new { success = true, message = "Регистрация успешна!" });
         }
     }
 }

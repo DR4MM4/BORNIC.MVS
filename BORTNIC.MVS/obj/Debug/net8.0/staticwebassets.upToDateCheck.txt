@@ -1,6 +1,3 @@
-wwwroot\css\about.cs
-wwwroot\css\about.css
-wwwroot\css\header.css
 wwwroot\css\site.css
 wwwroot\favicon.ico
 wwwroot\images\fridge.png

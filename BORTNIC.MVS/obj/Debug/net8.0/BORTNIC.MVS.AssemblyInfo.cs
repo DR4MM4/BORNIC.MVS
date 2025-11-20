@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("BORTNIC.MVS")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+31bf3074205d783c8386009559edc12e14eb20a6")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+502c176f4766f68870f3ceccd610ad47f7ae2b52")]
 [assembly: System.Reflection.AssemblyProductAttribute("BORTNIC.MVS")]
 [assembly: System.Reflection.AssemblyTitleAttribute("BORTNIC.MVS")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

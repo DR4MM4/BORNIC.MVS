@@ -27,23 +27,23 @@
     ]
   },
   "packageFolders": {
-    "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\": {},
+    "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\": {},
     "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages": {}
   },
   "project": {
     "version": "1.0.0",
     "restore": {
-      "projectUniqueName": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
+      "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
       "projectName": "DAL",
-      "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
-      "packagesPath": "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\",
-      "outputPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\DAL\\obj\\",
+      "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\DAL.csproj",
+      "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
+      "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\DAL\\obj\\",
       "projectStyle": "PackageReference",
       "fallbackFolders": [
         "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
       ],
       "configFilePaths": [
-        "C:\\Users\\Lucky-Buy.md\\AppData\\Roaming\\NuGet\\NuGet.Config",
+        "D:\\Users\\tmu5.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
         "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
       ],
@@ -58,8 +58,8 @@
         "net8.0": {
           "targetAlias": "net8.0",
           "projectReferences": {
-            "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
-              "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
+            "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
+              "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
             }
           }
         }
@@ -95,7 +95,7 @@
             "privateAssets": "all"
           }
         },
-        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+        "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
       }
     }
   }

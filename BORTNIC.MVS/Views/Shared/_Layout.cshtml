@@ -7,6 +7,15 @@
     <link href="~/css/site.css" rel="stylesheet" />
     <link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.0.0/css/all.min.css" rel="stylesheet">
     <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
+    <!-- Font Awesome Icons -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.0/css/all.min.css"
+          integrity="sha512-iecdLmaskl7CVkqkXNQ/ZH/XLlvWZOJyj7Yy7tcenmpD1ypASozpmT/E0iPtmFIB46ZmdtAc9eNBvH0H/ZpiBw=="
+          crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+    <!-- Google Fonts -->
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Poppins:wght@400;500;600;700&display=swap" rel="stylesheet">
     @RenderSection("Styles", required: false)
 </head>
 <body>
@@ -21,67 +30,100 @@
 
     <!-- Шапка -->
     <header class="main-header">
-        <div class="header-glow"></div>
         <nav class="main-nav">
             <div class="nav-container">
                 <!-- Логотип -->
-                <div class="logo" onclick="window.location='@Url.Action("Index", "Home")'">
+                <a class="logo" href="@Url.Action("Index", "Home")">
                     <div class="logo-icon">
                         <i class="fas fa-tools"></i>
-                        <div class="logo-pulse"></div>
                     </div>
                     <div class="logo-text">
                         <span class="logo-main">MasterService</span>
                         <span class="logo-sub">профессиональный ремонт</span>
                     </div>
-                </div>
+                </a>
 
-                <!-- Навигация -->
-                <ul class="nav-menu">
+                <!-- Навигация для десктопа -->
+                <ul class="nav-menu" id="navMenu">
                     <li class="nav-item">
                         <a href="#about" class="nav-link">
-                            <span class="nav-icon"><i class="fas fa-star"></i></span>
-                            <span class="nav-text">О нас</span>
-                            <span class="nav-hover"></span>
+                            <i class="fas fa-star"></i>
+                            <span>О нас</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#services" class="nav-link">
-                            <span class="nav-icon"><i class="fas fa-concierge-bell"></i></span>
-                            <span class="nav-text">Услуги</span>
-                            <span class="nav-hover"></span>
+                            <i class="fas fa-concierge-bell"></i>
+                            <span>Услуги</span>
                         </a>
                     </li>
                     <li class="nav-item">
                         <a href="#contacts" class="nav-link">
-                            <span class="nav-icon"><i class="fas fa-phone"></i></span>
-                            <span class="nav-text">Контакты</span>
-                            <span class="nav-hover"></span>
+                            <i class="fas fa-phone"></i>
+                            <span>Контакты</span>
                         </a>
                     </li>
                 </ul>
 
-                <!-- Кнопки -->
+                <!-- Кнопки для десктопа -->
                 <div class="nav-buttons">
-                    <button class="btn btn-ghost btn-login" onclick="openLoginModal()">
+                    <button class="btn btn-ghost" onclick="openLoginModal()">
                         <i class="fas fa-user"></i>
                         Вход
                     </button>
-                    <button class="btn btn-primary btn-register" onclick="openRegisterModal()">
+                    <button class="btn btn-primary" onclick="openRegisterModal()">
                         <i class="fas fa-user-plus"></i>
                         Регистрация
                     </button>
                 </div>
 
-                <!-- Мобильное меню -->
-                <div class="mobile-menu-btn">
+                <!-- Бургер-кнопка -->
+                <div class="mobile-menu-btn" id="mobileMenuBtn" onclick="toggleMobileMenu()">
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
                     <div class="burger-line"></div>
                 </div>
             </div>
         </nav>
+
+        <!-- Мобильное меню (скрыто по умолчанию) -->
+        <div class="mobile-menu" id="mobileMenu">
+            <div class="mobile-menu-content">
+                <ul class="mobile-nav-menu">
+                    <li class="mobile-nav-item">
+                        <a href="#about" class="mobile-nav-link" onclick="closeMobileMenu()">
+                            <i class="fas fa-star"></i>
+                            <span>О нас</span>
+                        </a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#services" class="mobile-nav-link" onclick="closeMobileMenu()">
+                            <i class="fas fa-concierge-bell"></i>
+                            <span>Услуги</span>
+                        </a>
+                    </li>
+                    <li class="mobile-nav-item">
+                        <a href="#contacts" class="mobile-nav-link" onclick="closeMobileMenu()">
+                            <i class="fas fa-phone"></i>
+                            <span>Контакты</span>
+                        </a>
+                    </li>
+                </ul>
+
+                <div class="mobile-nav-buttons">
+                    <button class="btn btn-ghost btn-full" onclick="openLoginModal(); closeMobileMenu();">
+                        <i class="fas fa-user"></i>
+                        Вход
+                    </button>
+                    <button class="btn btn-primary btn-full" onclick="openRegisterModal(); closeMobileMenu();">
+                        <i class="fas fa-user-plus"></i>
+                        Регистрация
+                    </button>
+                </div>
+            </div>
+        </div>
     </header>
+
 
     <main class="main-content">
         @RenderBody()

@@ -1,4 +1,8 @@
-﻿// Инициализация при загрузке
+﻿// ===========================
+// MasterService site.js — часть 1
+// ===========================
+
+// Инициализация при загрузке
 document.addEventListener('DOMContentLoaded', function () {
     console.log('MasterService initialized');
 
@@ -7,13 +11,15 @@ document.addEventListener('DOMContentLoaded', function () {
     initCounterAnimation();
     initScrollToTop();
     initSmoothScroll();
+    initContactForm();
 });
 
+// ===========================
 // Система модальных окон
+// ===========================
 function initModalSystem() {
     console.log('Modal system initialized');
 
-    // Обработчики для форм
     const loginForm = document.getElementById('loginForm');
     const registerForm = document.getElementById('registerForm');
 
@@ -33,12 +39,10 @@ function initModalSystem() {
 
     // Закрытие по ESC
     document.addEventListener('keydown', function (event) {
-        if (event.key === 'Escape') {
-            closeAllModals();
-        }
+        if (event.key === 'Escape') closeAllModals();
     });
 
-    // Предотвращаем закрытие при клике на само модальное окно
+    // Предотвращаем закрытие при клике на модальное окно
     document.querySelectorAll('.modal-content').forEach(modalContent => {
         modalContent.addEventListener('click', function (e) {
             e.stopPropagation();
@@ -46,56 +50,40 @@ function initModalSystem() {
     });
 }
 
-// Функции модальных окон
 function openLoginModal() {
-    console.log('Opening login modal');
     const modal = document.getElementById('loginModal');
-    if (modal) {
-        modal.style.display = 'block';
-        document.body.style.overflow = 'hidden';
-
-        // Анимация появления
-        setTimeout(() => {
-            modal.classList.add('active');
-        }, 10);
-    }
+    if (!modal) return;
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => modal.classList.add('active'), 10);
 }
 
 function openRegisterModal() {
-    console.log('Opening register modal');
     const modal = document.getElementById('registerModal');
-    if (modal) {
-        modal.style.display = 'block';
-        document.body.style.overflow = 'hidden';
-
-        setTimeout(() => {
-            modal.classList.add('active');
-        }, 10);
-    }
+    if (!modal) return;
+    modal.style.display = 'block';
+    document.body.style.overflow = 'hidden';
+    setTimeout(() => modal.classList.add('active'), 10);
 }
 
 function closeLoginModal() {
-    console.log('Closing login modal');
     const modal = document.getElementById('loginModal');
-    if (modal) {
-        modal.classList.remove('active');
-        setTimeout(() => {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }, 300);
-    }
+    if (!modal) return;
+    modal.classList.remove('active');
+    setTimeout(() => {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }, 300);
 }
 
 function closeRegisterModal() {
-    console.log('Closing register modal');
     const modal = document.getElementById('registerModal');
-    if (modal) {
-        modal.classList.remove('active');
-        setTimeout(() => {
-            modal.style.display = 'none';
-            document.body.style.overflow = 'auto';
-        }, 300);
-    }
+    if (!modal) return;
+    modal.classList.remove('active');
+    setTimeout(() => {
+        modal.style.display = 'none';
+        document.body.style.overflow = 'auto';
+    }, 300);
 }
 
 function closeAllModals() {
@@ -113,61 +101,10 @@ function switchToLogin() {
     setTimeout(() => openLoginModal(), 350);
 }
 
-// Обработка логина
-function handleLogin(form) {
-    const formData = new FormData(form);
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const originalText = submitBtn.innerHTML;
-
-    // Показываем индикатор загрузки
-    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Вход...';
-    submitBtn.disabled = true;
-
-    // Имитация запроса
-    setTimeout(() => {
-        showNotification('Вход выполнен успешно!', 'success');
-        closeLoginModal();
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-    }, 1500);
-}
-
-// Обработка регистрации
-function handleRegister(form) {
-    const formData = new FormData(form);
-    const submitBtn = form.querySelector('button[type="submit"]');
-    const originalText = submitBtn.innerHTML;
-
-    // Валидация пароля
-    const password = form.querySelector('#regPassword').value;
-    const confirmPassword = form.querySelector('#regConfirmPassword').value;
-
-    if (password !== confirmPassword) {
-        showNotification('Пароли не совпадают!', 'error');
-        return;
-    }
-
-    if (password.length < 6) {
-        showNotification('Пароль должен содержать минимум 6 символов', 'warning');
-        return;
-    }
-
-    // Показываем индикатор загрузки
-    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Регистрация...';
-    submitBtn.disabled = true;
-
-    // Имитация запроса
-    setTimeout(() => {
-        showNotification('Регистрация прошла успешно!', 'success');
-        closeRegisterModal();
-        submitBtn.innerHTML = originalText;
-        submitBtn.disabled = false;
-    }, 1500);
-}
-
+// ===========================
 // Система уведомлений
+// ===========================
 function showNotification(message, type = 'info') {
-    // Создаем контейнер для уведомлений если его нет
     let container = document.getElementById('notifications-container');
     if (!container) {
         container = document.createElement('div');
@@ -203,61 +140,181 @@ function showNotification(message, type = 'info') {
         font-weight: 500;
         max-width: 300px;
     `;
-
     notification.textContent = message;
     container.appendChild(notification);
 
-    // Анимация появления
-    setTimeout(() => {
-        notification.style.transform = 'translateX(0)';
-    }, 100);
+    setTimeout(() => notification.style.transform = 'translateX(0)', 100);
 
-    // Автоматическое закрытие
     setTimeout(() => {
         notification.style.transform = 'translateX(400px)';
-        setTimeout(() => {
-            if (notification.parentElement) {
-                notification.remove();
-            }
-        }, 300);
+        setTimeout(() => notification.remove(), 300);
     }, 4000);
 }
+// ===========================
+// LOGIN через fetch
+// ===========================
+async function handleLogin(form) {
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
 
+    const data = {
+        Email: document.getElementById("loginEmail").value,
+        Password: document.getElementById("loginPassword").value
+    };
+
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Вход...';
+    submitBtn.disabled = true;
+
+    try {
+        const response = await fetch("/Account/LoginFetch", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+
+        if (result.success) {
+            showNotification(result.message, "success");
+            closeLoginModal();
+        } else {
+            showNotification(result.message, "error");
+        }
+    } catch (err) {
+        showNotification("Ошибка сервера при входе", "error");
+        console.error(err);
+    }
+
+    submitBtn.innerHTML = originalText;
+    submitBtn.disabled = false;
+}
+
+// ===========================
+// REGISTER через fetch
+// ===========================
+async function handleRegister(form) {
+    const submitBtn = form.querySelector('button[type="submit"]');
+    const originalText = submitBtn.innerHTML;
+
+    const data = {
+        Name: document.getElementById("regName").value,
+        Phone: document.getElementById("regPhone").value,
+        Email: document.getElementById("regEmail").value,
+        Password: document.getElementById("regPassword").value,
+        ConfirmPassword: document.getElementById("regConfirmPassword").value
+    };
+
+    if (data.Password !== data.ConfirmPassword) {
+        showNotification("Пароли не совпадают!", "error");
+        return;
+    }
+
+    submitBtn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Регистрация...';
+    submitBtn.disabled = true;
+
+    try {
+        const response = await fetch("/Account/RegisterFetch", {
+            method: "POST",
+            headers: { "Content-Type": "application/json" },
+            body: JSON.stringify(data)
+        });
+        const result = await response.json();
+
+        if (result.success) {
+            showNotification(result.message, "success");
+            closeRegisterModal();
+        } else {
+            showNotification(result.message, "error");
+        }
+    } catch (err) {
+        showNotification("Ошибка сервера при регистрации", "error");
+        console.error(err);
+    }
+
+    submitBtn.innerHTML = originalText;
+    submitBtn.disabled = false;
+}
+
+// ===========================
+// Контактная форма Index.cshtml
+// ===========================
+function initContactForm() {
+    const contactForm = document.querySelector(".contact-form");
+    if (!contactForm) return;
+
+    contactForm.addEventListener("submit", async (e) => {
+        e.preventDefault();
+
+        const data = {
+            Name: document.getElementById("contactName").value,
+            Phone: document.getElementById("contactPhone").value,
+            Subject: document.getElementById("contactSubject").value,
+            Message: document.getElementById("contactMessage").value
+        };
+
+        const btn = contactForm.querySelector("button");
+        const original = btn.innerHTML;
+        btn.innerHTML = '<i class="fas fa-spinner fa-spin"></i> Отправка...';
+        btn.disabled = true;
+
+        try {
+            const response = await fetch("/Home/SendMessage", {
+                method: "POST",
+                headers: { "Content-Type": "application/json" },
+                body: JSON.stringify(data)
+            });
+            const result = await response.json();
+
+            if (result.success) {
+                showNotification(result.message, "success");
+                contactForm.reset();
+            } else {
+                showNotification(result.message, "error");
+            }
+        } catch (err) {
+            showNotification("Ошибка сервера при отправке сообщения", "error");
+            console.error(err);
+        }
+
+        btn.innerHTML = original;
+        btn.disabled = false;
+    });
+}
+
+// ===========================
 // Плавная прокрутка к якорям
+// ===========================
 function initSmoothScroll() {
     document.querySelectorAll('a[href^="#"]').forEach(anchor => {
         anchor.addEventListener('click', function (e) {
             e.preventDefault();
             const targetId = this.getAttribute('href');
             const target = document.querySelector(targetId);
+            if (!target) return;
 
-            if (target) {
-                const headerHeight = document.querySelector('.main-header').offsetHeight;
-                const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
+            const headerHeight = document.querySelector('.main-header').offsetHeight;
+            const targetPosition = target.getBoundingClientRect().top + window.pageYOffset - headerHeight;
 
-                window.scrollTo({
-                    top: targetPosition,
-                    behavior: 'smooth'
-                });
-            }
+            window.scrollTo({
+                top: targetPosition,
+                behavior: 'smooth'
+            });
         });
     });
 }
 
+// ===========================
 // Анимации при скролле
+// ===========================
 function initScrollAnimations() {
     const observer = new IntersectionObserver((entries) => {
         entries.forEach(entry => {
             if (entry.isIntersecting) {
                 entry.target.classList.add('active');
 
-                // Анимация для карточек услуг
                 if (entry.target.classList.contains('services-grid')) {
                     const cards = entry.target.querySelectorAll('.service-card');
                     cards.forEach((card, index) => {
-                        setTimeout(() => {
-                            card.classList.add('active');
-                        }, index * 200);
+                        setTimeout(() => card.classList.add('active'), index * 200);
                     });
                 }
             }
@@ -267,13 +324,14 @@ function initScrollAnimations() {
         rootMargin: '0px 0px -50px 0px'
     });
 
-    // Наблюдаем за элементами
     document.querySelectorAll('.reveal, .services-grid, .service-card').forEach(el => {
         observer.observe(el);
     });
 }
 
+// ===========================
 // Анимация счетчиков
+// ===========================
 function initCounterAnimation() {
     const counters = document.querySelectorAll('.stat-number');
 
@@ -294,7 +352,6 @@ function initCounterAnimation() {
             }
         };
 
-        // Запуск при появлении в viewport
         const observer = new IntersectionObserver((entries) => {
             entries.forEach(entry => {
                 if (entry.isIntersecting) {
@@ -308,31 +365,29 @@ function initCounterAnimation() {
     });
 }
 
+// ===========================
 // Кнопка "Наверх"
+// ===========================
 function initScrollToTop() {
     const scrollBtn = document.createElement('button');
     scrollBtn.className = 'scroll-to-top';
     scrollBtn.innerHTML = '<i class="fas fa-chevron-up"></i>';
     scrollBtn.setAttribute('aria-label', 'Наверх');
     scrollBtn.onclick = () => {
-        window.scrollTo({
-            top: 0,
-            behavior: 'smooth'
-        });
+        window.scrollTo({ top: 0, behavior: 'smooth' });
     };
 
     document.body.appendChild(scrollBtn);
 
     window.addEventListener('scroll', () => {
-        if (window.pageYOffset > 300) {
-            scrollBtn.classList.add('visible');
-        } else {
-            scrollBtn.classList.remove('visible');
-        }
+        if (window.pageYOffset > 300) scrollBtn.classList.add('visible');
+        else scrollBtn.classList.remove('visible');
     });
 }
 
+// ===========================
 // Анимация хедера при скролле
+// ===========================
 window.addEventListener('scroll', function () {
     const header = document.querySelector('.main-header');
     const scrollTop = window.pageYOffset || document.documentElement.scrollTop;
@@ -348,15 +403,28 @@ window.addEventListener('scroll', function () {
     }
 });
 
-// Обработка placeholder для полей ввода
-document.querySelectorAll('.input-group input').forEach(input => {
+// ===========================
+// Placeholder для полей ввода
+// ===========================
+document.querySelectorAll('.input-group input, .input-group textarea').forEach(input => {
     input.addEventListener('focus', function () {
         this.parentElement.classList.add('focused');
     });
 
     input.addEventListener('blur', function () {
-        if (!this.value) {
-            this.parentElement.classList.remove('focused');
-        }
+        if (!this.value) this.parentElement.classList.remove('focused');
     });
 });
+// Базовые функции
+document.addEventListener('DOMContentLoaded', function () {
+    console.log('MasterService loaded');
+});
+
+// Функции для модальных окон (если понадобятся позже)
+function openLoginModal() {
+    alert('Форма входа будет здесь');
+}
+
+function openRegisterModal() {
+    alert('Форма регистрации будет здесь');
+}

@@ -1,23 +1,23 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj": {}
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj": {}
   },
   "projects": {
-    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj": {
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
         "projectName": "BORTNIC.MVS",
-        "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
-        "packagesPath": "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\obj\\",
+        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\BORTNIC.MVS.csproj",
+        "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\BORTNIC.MVS\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucky-Buy.md\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\tmu5.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -32,11 +32,11 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
+              "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
               },
-              "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\Service.csproj": {
-                "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\Service.csproj"
+              "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Service.csproj": {
+                "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Service.csproj"
               }
             }
           }
@@ -75,24 +75,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
+        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
         "projectName": "Domain",
-        "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
-        "packagesPath": "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\obj\\",
+        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj",
+        "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucky-Buy.md\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\tmu5.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -140,24 +140,24 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     },
-    "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\Service.csproj": {
+    "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Service.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\Service.csproj",
+        "projectUniqueName": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Service.csproj",
         "projectName": "Service",
-        "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\Service.csproj",
-        "packagesPath": "C:\\Users\\Lucky-Buy.md\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Service\\obj\\",
+        "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\Service.csproj",
+        "packagesPath": "D:\\Users\\tmu5.SERVER-ECONOM\\.nuget\\packages\\",
+        "outputPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Service\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
         ],
         "configFilePaths": [
-          "C:\\Users\\Lucky-Buy.md\\AppData\\Roaming\\NuGet\\NuGet.Config",
+          "D:\\Users\\tmu5.SERVER-ECONOM\\AppData\\Roaming\\NuGet\\NuGet.Config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.FallbackLocation.config",
           "C:\\Program Files (x86)\\NuGet\\Config\\Microsoft.VisualStudio.Offline.config"
         ],
@@ -172,8 +172,8 @@
           "net8.0": {
             "targetAlias": "net8.0",
             "projectReferences": {
-              "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
-                "projectPath": "C:\\Users\\Lucky-Buy.md\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
+              "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj": {
+                "projectPath": "D:\\Users\\tmu5.SERVER-ECONOM\\Desktop\\BORNIC.MVS\\Domain\\Domain.csproj"
               }
             }
           }
@@ -209,7 +209,7 @@
               "privateAssets": "all"
             }
           },
-          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.306/PortableRuntimeIdentifierGraph.json"
+          "runtimeIdentifierGraphPath": "C:\\Program Files\\dotnet\\sdk\\9.0.307/PortableRuntimeIdentifierGraph.json"
         }
       }
     }

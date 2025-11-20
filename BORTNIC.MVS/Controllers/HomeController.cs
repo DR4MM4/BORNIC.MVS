@@ -1,37 +1,26 @@
-﻿using Microsoft.AspNetCore.Mvc;
-using RepairService.Models;
-using System.Collections.Generic;
+﻿using BORTNIC.MVS.Models;
+using Microsoft.AspNetCore.Mvc;
 
-namespace RepairService.Controllers
+namespace BORTNIC.MVS.Controllers
 {
     public class HomeController : Controller
     {
-        // ⚙️ Временный список сообщений (имитация базы данных)
-        private static List<MessageModel> messages = new List<MessageModel>();
-
-        public IActionResult Index()
+        public ActionResult Index()
         {
-            return View(messages);
+            return View();
         }
 
-        // ✅ Получение всех сообщений
-        [HttpGet]
-        public JsonResult GetMessages()
-        {
-            return Json(messages);
-        }
-
-        // ✅ Добавление нового сообщения
         [HttpPost]
-        public JsonResult AddMessage([FromBody] MessageModel msg)
+        public JsonResult SendMessage(MessageModel model)
         {
-            if (string.IsNullOrWhiteSpace(msg.MessageText))
+            if (string.IsNullOrWhiteSpace(model.Name) ||
+                string.IsNullOrWhiteSpace(model.Phone))
             {
-                return Json(new { success = false, message = "Сообщение не может быть пустым." });
+                return Json(new { success = false, message = "Заполните обязательные поля" });
             }
 
-            messages.Add(msg);
-            return Json(new { success = true, message = "Сообщение добавлено!" });
+            // Тут можешь добавить email / БД
+            return Json(new { success = true, message = "Сообщение успешно отправлено!" });
         }
     }
 }
